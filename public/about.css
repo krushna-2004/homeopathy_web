@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 29%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+.clinic-name{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 80%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a:hover{
+   color: grey;
+}
+
+.rightnav{
+    width: 20%;
+    /* background-color: violet; */
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 2px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    padding: 2px;
+    background-color: white;
+    margin: 5px 3px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.main img{
+    width: 500px;
+    height: 350px;
+    padding: 50px 50px;
+}
+
+.main h1{
+    padding: 15px;
+    color: rgb(5, 105, 105);
+    font-size: 35px;
+}
+
+.main p{
+    font-size: 23px;
+}
+.why{
+    text-align: center;
+    justify-content: center;
+    color: rgb(5, 105, 105);
+    padding: 30px 0px;
+    font-size: 45px;
+}
+.sec p{
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+}
+@keyframes fade-inout {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    /* animation: fade-inout 10s infinite 1; */
+    animation: fade-inout 3s 1 alternate;
+}
+.box p{
+    font-size: 20px;
+    padding: 3px 5px;
+}
+
+.box-1{
+    width: 50%;
+    margin: 100px;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    background-color: rgb(212, 203, 203);
+}
+.box-1 img{
+    padding: 10px 0;
+}
+.box-2 img{
+    padding: 10px 0;
+}
+.box-2{
+    width: 50%;
+    margin: 100px;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    background-color: rgb(212, 203, 203);
+}
+.text-footer{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.background{
+    background: rgba(0,0,0,0.7) url('../homeopathic.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 29%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+.clinic-name{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.nav-list{
+    width: 80%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-list li a:hover{
+   color: grey;
+}
+
+.rightnav{
+    width: 20%;
+    /* background-color: violet; */
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 2px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    padding: 2px;
+    background-color: white;
+    margin: 5px 3px;
+}
+.container{
+    position: relative;
+}
+.container h1{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(5, 105, 105);
+}
+
+.container p{
+    justify-content: center;
+    text-align: center;
+    padding: 0px 380px;
+    font-size: 20px;
+}
+@keyframes fade-inout {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.box{
+    justify-content: center;
+    text-align: center;
+    padding: 35px 5px;
+    display: flex;
+    flex-direction: row;
+    animation: fade-inout 3s 1 alternate;
+}
+.box1{
+    color: rgb(5, 105, 105);
+    background-color: rgb(208, 194, 194);
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
+.box1 img{
+    padding: 15px 0px;
+}
+.box1 p{
+    padding: 20px;
+    font-size: 22px;
+    color: black;
+}
+.box1 h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sec-box{
+    justify-content: center;
+    text-align: center;
+    /* padding: 0px 5px; */
+    display: flex;
+    flex-direction: row;
+    animation: fade-inout 3s 1 alternate;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.background{
+    background: rgba(0,0,0,0.7) url('../homeopathic.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}

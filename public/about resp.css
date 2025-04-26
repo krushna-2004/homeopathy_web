@@ -1,0 +1,51 @@
+@media only screen and (max-width:1330px){
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .main img{
+        padding: 20px;
+        margin: 20px;
+    }
+    .box{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .box-1{
+        margin: 20px;
+    }
+    .box-2{
+        margin: 20px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .rightnav{
+        width: 100%;
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #serach{
+        width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+    
+    .h-nav-resp{
+        height: 72px;
+    }
+    
+    .v-class-resp{
+        opacity: 0;
+    }
+}
